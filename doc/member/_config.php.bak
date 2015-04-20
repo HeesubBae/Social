@@ -1,0 +1,37 @@
+<?php
+// 플러그인 출력 순서
+$PLUGIN_ORDER = 3;
+
+// 플러그인 이름
+$PLUGIN_NAME = '회원관리';
+
+// 플러그인 기능 목록
+$PLUGIN_SUB[0]['path'] = 'doc1';
+$PLUGIN_SUB[0]['name'] = '회원관리';
+$PLUGIN_SUB[1]['path'] = 'doc3';
+$PLUGIN_SUB[1]['name'] = array(
+						'회원리스트'=>'doc4',
+						'회원수동등록'=>'doc4'
+						);
+$PLUGIN_SUB[2]['path'] = 'doc1';
+$PLUGIN_SUB[2]['name'] = '업체회원관리';
+$PLUGIN_SUB[3]['path'] = 'doc3';
+$PLUGIN_SUB[3]['name'] = array(
+						'업체회원리스트'=>'doc4',
+						'업체회원등록'=>'doc4'
+						);
+$PLUGIN_SUB[4]['path'] = 'doc1';
+$PLUGIN_SUB[4]['name'] = '회원관리2';
+$PLUGIN_SUB[5]['path'] = 'doc3';
+$PLUGIN_SUB[5]['name'] = array(
+						'회원리스트'=>'doc4',
+						'회원수동등록'=>'doc4'
+						);
+$PLUGIN_SUB[6]['path'] = 'doc1';
+$PLUGIN_SUB[6]['name'] = '업체회원관리2';
+$PLUGIN_SUB[7]['path'] = 'doc3';
+$PLUGIN_SUB[7]['name'] = array(
+						'업체회원리스트'=>'doc4',
+						'업체회원등록'=>'doc4'
+						);
+?>
